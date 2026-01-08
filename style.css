@@ -1,0 +1,29 @@
+body {
+    background-color: blueviolet;
+}
+ol {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: red;
+    color: white;
+    grid-gap: 40px;
+    grid-template-areas: 
+        'D20 D12 D10'
+        'D8 D6 D4';
+}
+li {
+    width: 280px;
+    padding: 100px 20px 100px 20px;
+    margin: 10px;
+    text-align: center;
+    border: 8px solid transparent;
+    border-radius: 25px;
+    background-image: linear-gradient(#ba01c0, #640069), linear-gradient(to right, #e802f0, #7802ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+}
+#li_d12{
+    grid-area: D20;
+}
