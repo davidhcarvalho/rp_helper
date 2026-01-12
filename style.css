@@ -6,11 +6,14 @@ ol {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: red;
-    color: white;
     grid-gap: 40px;
     grid-template-areas: 
         'D20 D12 D10'
         'D8 D6 D4';
+    place-items: center;
+    color: black;
+    list-style: none;
+    padding-left: 0;
 }
 li {
     width: 280px;
@@ -22,8 +25,8 @@ li {
     background-image: linear-gradient(#ba01c0, #640069), linear-gradient(to right, #e802f0, #7802ff);
     background-origin: border-box;
     background-clip: padding-box, border-box;
-
+    color: white;
 }
 #li_d12{
-    grid-area: D20;
+    grid-area: D12;
 }
